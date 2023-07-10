@@ -2,31 +2,31 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'cuongvnz', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      forks: true, // Forked projects will not be displayed if set to true.
+      projects: ['dog-cat-mouse'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'cuong-nguyen-chi',
+    twitter: '',
+    mastodon: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: 'https://cuongvnz.github.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'eldrienguyen@gmail.com',
   },
   resume: {
     fileUrl:
@@ -34,35 +34,39 @@ const config = {
   },
   skills: [
     'PHP',
-    'Laravel',
+    // 'Laravel',
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
+    'Vue.js',
     'MySQL',
-    'PostgreSQL',
+    // 'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
+    // 'Docker',
+    // 'PHPUnit',
     'CSS',
-    'Antd',
+    // 'Antd',
     'Tailwind',
+    'Python',
+    'C++',
+    'C#',
+    'Java'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Not worked yet',
+      position: 'No position',
+      from: '2022',
       to: 'Present',
       companyLink: 'https://example.com',
     },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+    // {
+    //   company: 'Company Name',
+    //   position: 'Position',
+    //   from: 'July 2019',
+    //   to: 'August 2021',
+    //   companyLink: 'https://example.com',
+    // },
   ],
   /* certifications: [
     {
@@ -74,30 +78,30 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Swinburne University of Technology',
+      degree: 'Bachelor',
+      from: '2022',
+      to: '2025',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Le Quy Don high school for the gifted',
+      degree: 'High school',
+      from: '2019',
+      to: '2022',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'ReactJS E-commercial website',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      link: 'https://ilc-client.vercel.app',
     },
     {
-      title: 'Project Name',
+      title: 'VueJS E-commercial website',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
       imageUrl: 'https://via.placeholder.com/250x250',
